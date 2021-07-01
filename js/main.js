@@ -35,7 +35,6 @@ window.addEventListener('scroll', _.throttle(function () {
     gsap.to('#to-top', .2, {
       x: 100
     })
-  }
 },300));
 
 const toTopEl = document.querySelector('#to-top');
@@ -91,7 +90,6 @@ new Swiper('.awards .swiper-container', {
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('toggle-promotion');
 let isHidePromotion = false;
-
 promotionToggleBtn,addEventListener('click', function() {
   isHidePromotion = !isHidePromotion
   if (isHidePromotion) {
