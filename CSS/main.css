@@ -146,7 +146,7 @@
 }
 
 .notice .promotion.hide {
-  height: 0;
+  height: 0px;
 }
 
 .notice .promotion .swiper-container {
@@ -335,10 +335,10 @@
   right: 0;
 }
 
-.seoson-product {
+.season-product {
  background-image: url("../images/season_product_bg.jpg");
 }
-.seoson-product .inner{
+.season-product .inner{
   height: 400px;
 }
 .season-product .text-group {
@@ -349,10 +349,10 @@
 .season-product .text-group .title {
   margin-bottom: 10px;
 }
-.seoson-product.text-group .description {
+.season-product.text-group .description {
   margin-bottom: 15px;
 }
-.seoson-product .text-group .more {
+.season-product .text-group .more {
 
 }
 
